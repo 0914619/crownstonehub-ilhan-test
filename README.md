@@ -1,2 +1,0 @@
-# crownstonehub-ilhan-test
-test

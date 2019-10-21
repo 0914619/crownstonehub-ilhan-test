@@ -1,0 +1,20 @@
+name: crownstonehub-ilhan-test
+version: git
+summary: greeting .
+description: |
+ hello + name greeting
+
+confinement: devmode
+#base: core18
+
+parts:
+  crownstonehub-ilhan-test:
+    plugin: nodejs
+    source: .
+    node-packages:
+     - hello
+
+apps:
+  crownstonehub-ilhan-test:
+    command: hello
+

@@ -4,3 +4,5 @@ function greeter(person) {
 }
 var user = "Dude";
 console.log(greeter(user));
+
+

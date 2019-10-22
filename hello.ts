@@ -5,3 +5,4 @@ function greeter(person: string) {
 
 let user = "Dude";
 console.log(greeter(user));
+

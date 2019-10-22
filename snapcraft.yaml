@@ -13,6 +13,6 @@ parts:
     source: .
 
 apps:
-  crownstonehub-ilhan-test:
+  hello:
     command: hello
     

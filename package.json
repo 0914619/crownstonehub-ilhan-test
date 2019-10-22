@@ -4,6 +4,4 @@
   "description": "greeter .",
   "main": "hello.js"
 }
-  "bin": {
-    "hello": "hello.js"
-  }
+  

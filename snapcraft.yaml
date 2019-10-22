@@ -5,7 +5,7 @@ summary: greeting .
 description: |
  hello + name greeting
 confinement: devmode
-#base: core18
+
 
 parts:
   crownstonehub-ilhan-test:
@@ -13,6 +13,6 @@ parts:
     source: .
 
 apps:
-  crownstonehub-ilhan-test:
+  hello:
     command: hello
     
